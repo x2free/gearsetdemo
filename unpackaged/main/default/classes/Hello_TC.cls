@@ -10,6 +10,10 @@ public with sharing class Hello_TC {
 
     }
 
+    /**
+     * @description getAccounts description
+     * @return   return description
+     */
     public List<Account> getAccounts() {
         CICD_Demo objDemo = new CICD_Demo();
         return objDemo.getAccounts();
