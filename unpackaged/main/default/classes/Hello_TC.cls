@@ -16,7 +16,6 @@ public with sharing class Hello_TC {
      */
     public List<Account> getAccounts() {
         // //  // // // // // //  // //
-
         CICD_Demo objDemo = new CICD_Demo();
         return objDemo.getAccounts();
     }
