@@ -25,6 +25,7 @@ public with sharing class MyClass_tgongTest {
 
     @IsTest
     static void testGetContact(){
+        //
         MyClass_tgong obj = new MyClass_tgong();
 
         List<Contact> lstContatct = obj.getContact();

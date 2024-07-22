@@ -19,6 +19,7 @@ public with sharing class MyClass_tgong {
      * @return         return description
      */
     public List<Account> getAccount(String strName) {
+        // 
         strName = String.isBlank(strName) ? '' : String.escapeSingleQuotes(strName);
         
         return [SELECT Id, Name FROM Account WHERE Name LIKE :strName];
