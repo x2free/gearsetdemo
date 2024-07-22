@@ -45,10 +45,6 @@
                 <behavior>Edit</behavior>
                 <field>AA_Obj__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>AA_String__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
