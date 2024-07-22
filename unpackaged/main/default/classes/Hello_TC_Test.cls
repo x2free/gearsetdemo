@@ -21,6 +21,6 @@ public with sharing class Hello_TC_Test {
         Hello_TC obj = new Hello_TC();
         List<Account> lstAccount = obj.getAccounts();
 
-        // Assert.areEqual(2, lstAccount.size(), 'should be one account only');
+        //Assert.areEqual(2, lstAccount.size(), 'should be one account only');
     }
 }
